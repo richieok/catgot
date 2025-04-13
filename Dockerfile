@@ -18,6 +18,6 @@ RUN npm install --omit=dev
 COPY ./static ./static
 COPY ./other-static-assets ./other-static-assets
 
-EXPOSE 5173
+EXPOSE 3000
 
 CMD ["node", "build/index.js"]
