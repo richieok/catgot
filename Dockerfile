@@ -20,4 +20,4 @@ COPY ./other-static-assets ./other-static-assets
 
 EXPOSE 5173
 
-CMD npm run dev
+CMD ["node", "build/index.js"]
